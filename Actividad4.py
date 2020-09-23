@@ -113,3 +113,21 @@ def signos():
 	else:
 		print("Mes incorrecto")
 	return 0
+
+def factorial(n):
+	f = 1
+	i = 1
+	while i <= n:
+		f *= n
+		i += 1
+	return f
+	
+def numero():
+	limite = int(input("Ingrese un limite: "))
+	n = 0
+	e = 0
+	while n < limite:
+		e += 1/factorial(n)
+		n += 1
+	print(e)
+	return 0
