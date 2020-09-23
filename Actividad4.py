@@ -131,3 +131,21 @@ def numero():
 		n += 1
 	print(e)
 	return 0
+
+while True:
+	print("Selecciona una opcion")
+	print("1) Areas")
+	print("2) Zodiaco")
+	print("3) Numero e")
+	print("0) Salir")
+	opcion = input()
+	if opcion == "1":
+		operaciones()
+	elif opcion == "2":
+		signos()
+	elif opcion == "3":
+		numero()
+    elif opcion == "0":
+        break
+	else:
+		print("Opcion invalida")
